@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix for PNG transparency issue */
+img {
+  background-color: transparent !important;
+  image-rendering: auto;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 145 8% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 145 8% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 145 8% 15%;
+  --primary: 145 63% 42%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 152 50% 96%;
+  --secondary-foreground: 145 63% 42%;
+  --muted: 152 50% 96%;
+  --muted-foreground: 145 15% 65%;
+  --accent: 152 50% 96%;
+  --accent-foreground: 145 63% 42%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 152 35% 85%;
+  --input: 152 35% 85%;
+  --ring: 145 63% 42%;
+  --radius: 0.75rem;
+  --chart-1: 145 63% 42%;
+  --chart-2: 168 76% 42%;
+  --chart-3: 160 84% 39%;
+  --chart-4: 152 69% 31%;
+  --chart-5: 145 48% 30%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 0% 98%;
+  --primary-foreground: 240 5.9% 10%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 240 4.9% 83.9%;
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+}
