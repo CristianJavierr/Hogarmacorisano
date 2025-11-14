@@ -14,30 +14,30 @@ body {
 
 :root {
   --background: 0 0% 100%;
-  --foreground: 145 8% 15%;
+  --foreground: 0 40% 20%;
   --card: 0 0% 100%;
-  --card-foreground: 145 8% 15%;
+  --card-foreground: 0 40% 20%;
   --popover: 0 0% 100%;
-  --popover-foreground: 145 8% 15%;
-  --primary: 145 63% 42%;
+  --popover-foreground: 0 40% 20%;
+  --primary: 0 100% 51%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 152 50% 96%;
-  --secondary-foreground: 145 63% 42%;
-  --muted: 152 50% 96%;
-  --muted-foreground: 145 15% 65%;
-  --accent: 152 50% 96%;
-  --accent-foreground: 145 63% 42%;
+  --secondary: 0 100% 95%;
+  --secondary-foreground: 0 100% 51%;
+  --muted: 0 0% 92%;
+  --muted-foreground: 0 0% 55%;
+  --accent: 0 100% 45%;
+  --accent-foreground: 0 0% 100%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 98%;
-  --border: 152 35% 85%;
-  --input: 152 35% 85%;
-  --ring: 145 63% 42%;
-  --radius: 0.75rem;
-  --chart-1: 145 63% 42%;
-  --chart-2: 168 76% 42%;
-  --chart-3: 160 84% 39%;
-  --chart-4: 152 69% 31%;
-  --chart-5: 145 48% 30%;
+  --border: 0 0% 90%;
+  --input: 0 0% 92%;
+  --ring: 0 100% 51%;
+  --radius: 0.375rem;
+  --chart-1: 0 100% 51%;
+  --chart-2: 0 90% 48%;
+  --chart-3: 0 85% 52%;
+  --chart-4: 0 95% 50%;
+  --chart-5: 0 92% 46%;
 }
 
 .dark {
